@@ -3,7 +3,7 @@ export async function POST(req: Request) {
     const { location, days, preferences, travelStyle } = await req.json()
 
     const prompt = `Create a ${days}-day travel itinerary for ${location} with a focus on ${travelStyle} activities.
-    Additional preferences: ${preferences}
+    ${preferences ? `Additional preferences: ${preferences}` : ''}
     
     Please provide a detailed day-by-day itinerary with 3-4 activities per day, considering:
     - Local attractions and must-see spots
@@ -14,7 +14,7 @@ export async function POST(req: Request) {
 
     If the location does not match the preferences, feel free to suggest alternative destinations that better align with the travel style.
     
-    Format the response as a JSON object with the following structure:
+    Format the response as a JSON object with the following structure. Provide ONLY the JSON with no additional text or explanation:
     {
       "days": [
         {
