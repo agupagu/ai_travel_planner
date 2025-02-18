@@ -98,7 +98,7 @@ export async function POST(req: Request) {
             content: prompt,
           },
         ],
-        temperature: 0.7,
+        temperature: 0,
       }),
     })
 
