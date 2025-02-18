@@ -40,6 +40,7 @@ export async function POST(req: Request) {
       },
       body: JSON.stringify({
         model: "gpt-4",
+        response_format: { "type": "json_object" },
         messages: [
           {
             role: "system",
