@@ -46,7 +46,7 @@ export async function POST(req: Request) {
             role: "system",
             content: 
               "You are an expert travel planning assistant who creates highly personalized, detailed itineraries. You excel at:\n\n" +
-              "Understanding travelers specific preferences, constraints, and requirements by asking targeted questions about:\n" +
+              "Understanding travelers specific preferences, constraints, and requirements by taking the following into consideration:\n" +
               "- Budget range and financial considerations\n" +
               "- Desired trip duration and timing\n" +
               "- Travel style (luxury, budget, adventure, cultural, etc.)\n" +
