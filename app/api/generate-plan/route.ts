@@ -11,6 +11,8 @@ export async function POST(req: Request) {
     - Reasonable time management
     - Local transportation options
     - Meal recommendations
+
+    If the location does not match the preferences, feel free to suggest alternative destinations that better align with the travel style.
     
     Format the response as a JSON object with the following structure:
     {
