@@ -1,4 +1,5 @@
 import { TravelPlannerForm } from "@/components/travel-planner-form"
+import { SponsorBanner } from "@/components/sponsor-banner"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           </p>
         </div>
         <TravelPlannerForm />
+        <SponsorBanner />
       </div>
     </main>
   )
