@@ -1,51 +1,17 @@
-AI Travel Planner
+# AI Travel Planner
 
-Welcome to AI Travel Planner, an intelligent travel planning website powered by GPT-4o. This tool helps users generate personalized travel itineraries based on their preferences, including destination, duration, purpose of travel, and additional requests.
+Welcome to the AI Travel Planner! This web application helps you create personalized travel itineraries tailored to your preferences. Powered by GPT-4o on the backend, it takes your inputs and generates a detailed plan for your trip in seconds.
 
-Features
+## Features
+- **Customizable Plans**: Input your destination, trip duration, purpose, and any special requests.
+- **Smart Suggestions**: Leveraging GPT-4o, the planner provides intelligent recommendations for activities, dining, and more.
+- **Simple & Intuitive**: Easy-to-use interface for hassle-free travel planning.
 
-Smart Travel Itineraries: Generate customized travel plans based on user inputs.
-
-AI-Powered Recommendations: Uses GPT-4o to suggest attractions, accommodations, and activities.
-
-Flexible Planning: Tailors the itinerary based on purpose (business, leisure, adventure, etc.).
-
-User-Centric Customization: Allows additional requests for dietary preferences, accessibility needs, and special interests.
-
-How It Works
-
-Enter Travel Details: Provide your destination, number of days, and travel purpose.
-
-Customize Your Trip: Add any additional preferences or special requests.
-
-Generate Itinerary: Let the AI create a comprehensive travel plan.
-
-Review & Adjust: Modify the plan as needed for a perfect travel experience.
-
-Tech Stack
-
-Backend: GPT-4o for AI-driven itinerary generation
-
-Frontend: Web-based user-friendly interface
-
-Hosting: Hosted via GitHub repository at AI Travel Planner
-
-Getting Started
-
-# Clone the repository
-git clone https://github.com/agupagu/ai_travel_planner.git
-
-# Install dependencies (if applicable)
-
-# Run the application and start planning your trips!
-
-Contributing
-
-We welcome contributions! Feel free to submit issues or pull requests to improve AI Travel Planner.
-
-License
-
-This project is licensed under the MIT License.
-
-For more details, visit the GitHub Repository.
-
+## How It Works
+1. **Enter Your Details**:
+   - **Place**: Where are you going?
+   - **Number of Days**: How long are you staying?
+   - **Purpose of Travel**: Business, leisure, adventure, etc.?
+   - **Additional Requests**: Anything specific like "vegetarian food options" or "budget-friendly activities"?
+2. **Generate Your Itinerary**: The backend, powered by GPT-4o, processes your input and creates a tailored plan.
+3. **Explore & Enjoy**: Review your itinerary and hit the road!
