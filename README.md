@@ -1,6 +1,6 @@
 # AI Travel Planner
 
-Welcome to the AI Travel Planner! This web application helps you create personalized travel itineraries tailored to your preferences. Powered by GPT-4o on the backend, it takes your inputs and generates a detailed plan for your trip in seconds.
+Welcome to the AI Travel Planner! This web application helps you create personalized travel itineraries tailored to your taste and preferences. Powered by GPT-4o on the backend, it takes your inputs and generates a detailed plan for your trip in seconds.
 
 ## Features
 - **Customizable Plans**: Input your destination, trip duration, purpose, and any special requests.
